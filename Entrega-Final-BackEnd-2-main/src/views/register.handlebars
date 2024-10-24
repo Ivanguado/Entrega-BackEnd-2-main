@@ -1,0 +1,20 @@
+<div class="flex flex-col justify-center items-center py-8 gap-4">
+    <h1 class="text-2xl font-bold underline">Registro de Usuario</h1>
+    <form action="/api/sessions/register" method="POST" class="flex flex-col justify-center items-center">
+        <input type="text" name="firstName" placeholder="Ingresa tu nombre.." required class="w-64 rounded-xl pl-2 h-8 text-gray-700">
+        <br>
+        <input type="text" name="lastName" placeholder="Ingresa tu apellido.." required class="w-64 rounded-xl pl-2 h-8 text-gray-700">
+        <br>
+        <input type="email" name="email" placeholder="Ingresa tu email.." required class="w-64 rounded-xl pl-2 h-8 text-gray-700">
+        <br>
+        <input type="password" name="password" placeholder="Ingresa tu contraseña.." required class="w-64 rounded-xl pl-2 h-8 text-gray-700">
+        <br>
+        <input type="number" name="age" placeholder="Ingresa tu edad.." required class="w-64 rounded-xl pl-2 h-8 text-gray-700">
+        <br>
+
+        <button type="submit" class="border-2 border-white rounded-xl py-1 px-2 bg-gray-600"> Registrar </button>
+    </form>
+    <a href="/">
+        <button class="border-2 border-white rounded-xl py-1 px-2 bg-gray-600">Login</button>
+    </a>
+</div>
